@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Игорь Русалеев] (https://htmlacademy.ru/profile/dzaan).
-* Наставник: [Микаел Магтесян] (https://htmlacademy.ru/profile/id1100875).
+* Студент: [Игорь Русалеев](https://htmlacademy.ru/profile/dzaan).
+* Наставник: [Микаел Магтесян](https://htmlacademy.ru/profile/id1100875).
 
 ---
 
