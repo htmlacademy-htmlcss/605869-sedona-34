@@ -16,16 +16,16 @@
         </a>
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link" href="index.html">
+            <a class="navigation-link bold-style" href="index.html">
               Главная
             </a>
           </li>
-          <li class="navigation-item">
+          <li class="navigation-item bold-style">
             <a class="navigation-link" href="#">
               О Седоне
             </a>
           </li>
-          <li class="navigation-item">
+          <li class="navigation-item bold-style">
             <a class="navigation-link navigation-link-current" href="#">
               Гостиницы
             </a>
@@ -34,7 +34,7 @@
 
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
-            <a class="navigation-link" href="#">
+            <a class="navigation-link navigation-link-search" href="#">
               <span class="visually-hidden">Поиск</span>
               <img src="images/search.svg" width="18" height="18" alt="">
             </a>
@@ -47,7 +47,7 @@
             </a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#">Хочу сюда!</a>
+            <a class="navigation-link bold-style button-header" href="#">Хочу сюда!</a> <!-- как "Хочу сюда!" поместить в блок 130х20 -->
           </li>
         </ul>
 
@@ -167,8 +167,8 @@
             </a>
             <span class="hotel-card-type">Гостиница</span>
             <span class="hotel-card-price">От 4000 ₽</span>
-            <a class="button" href="#">Подробнее</a>
-            <button class="button" type="button">В избранное</button>
+            <a class="button-detailed" href="#">Подробнее</a>
+            <button class="button-favourites" type="button">В избранное</button>
             <div class="star-hotel">
               <span class="star"></span>
               <span class="star"></span>
@@ -189,8 +189,8 @@
             </a>
             <span class="hotel-card-type">Гостиница</span>
             <span class="hotel-card-price">От 5000 ₽</span>
-            <a class="button" href="#">Подробнее</a>
-            <button class="button" type="button">В избранное</button>
+            <a class="button-detailed" href="#">Подробнее</a>
+            <button class="button-favourites" type="button">В избранное</button>
             <div class="star-hotel">
               <span class="star"></span>
               <span class="star"></span>
@@ -211,8 +211,8 @@
             </a>
             <span class="hotel-card-type">Гостиница</span>
             <span class="hotel-card-price">От 2500 ₽</span>
-            <a class="button" href="#">Подробнее</a>
-            <button class="button" type="button">В избранное</button>
+            <a class="button-detailed" href="#">Подробнее</a>
+            <button class="button-favourites" type="button">В избранное</button>
             <div class="star-hotel">
               <span class="star"></span>
               <span class="star"></span>
@@ -233,8 +233,8 @@
             </a>
             <span class="hotel-card-type">Гостиница</span>
             <span class="hotel-card-price">От 1500 ₽</span>
-            <a class="button" href="#">Подробнее</a>
-            <button class="button" type="button">В избранное</button>
+            <a class="button-detailed" href="#">Подробнее</a>
+            <button class="button-favourites" type="button">В избранное</button>
             <div class="star-hotel">
               <span class="star"></span>
               <span class="star"></span>
@@ -249,8 +249,8 @@
         </ul>
 
         <ul class="pagination">
-          <li class="pagination-item">
-            <a class="pagination-link pagination-current">1</a>
+          <li class="pagination-item pagination-current">
+            <a class="pagination-link pagination-link-current">1</a>
           </li>
           <li class="pagination-item">
             <a class="pagination-link" href="#">2</a>
@@ -282,9 +282,9 @@
 
       </section>
 
-      <section class="newsletter">
-        <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
-        <p class="newsletter-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
+      <section class="newsletter-catalog">
+        <h2 class="newsletter-catalog-title">Подпишитесь на рассылку</h2>
+        <p class="newsletter-catalog-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" required>
           <button class="button newsletter-button" type="submit">Подписаться</button>
