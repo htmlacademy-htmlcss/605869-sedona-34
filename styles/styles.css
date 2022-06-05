@@ -1,0 +1,246 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+body {
+  margin: 0px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+/* Заголовок 1 */
+.first-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #ffffff;
+}
+
+/* Заголовок 2 */
+.second-heading {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.index-newsletter-title {
+  color: #ffffff;
+}
+
+/* Загоовок 3 */
+.third-heading {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+/* Заголовок 4 */
+.fourth-heading {
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.catalog-filter-title {
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+/* Текст */
+.description {
+  color: #333333;
+  text-align: center;
+}
+
+/* текст в блоках */
+.text-in-blocks {
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.main-background {
+  background-color:#ffffff;
+}
+
+.main-advantages {
+  background: #82b3d3;
+}
+
+.advantages-item-detailed {
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.beautiful-road {
+  background: rgba(131, 179, 211, 0.2);
+}
+
+.navigation-item-number-favorites {
+  font-size: 10px;
+  line-height: 13px;
+  color: #ffffff;
+}
+
+.navigation-link-current {
+  border-bottom: 2px solid #756257;
+  padding-bottom: 19px;
+}
+
+/* кнопки */
+.button {
+  font-family: inherit;
+  padding: 15px 45px;
+  border: none;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  background-color: #756157;
+  color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-second {
+  background-color: #82b3d3;
+}
+
+.button-selected {
+  background-color: #7db54f;
+}
+
+.newsletter-button {
+  border-radius: 0px 10px 10px 0px;
+}
+
+.catalog-filter-button-reset {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+}
+
+.hero {
+  background-color: #417aa4;
+  background-image: url("../images/index-background.jpg");
+  background-repeat: no-repeat;
+}
+
+.newsletter {
+  background-color: #5180AB;
+  background-image: url("../images/index-background-newsletter.jpg");
+  background-repeat: no-repeat;
+}
+
+.footer-contacts-address-phone {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
+
+.filter-content {
+  background-color: #775654;
+  background-image: url("../images/catalog-background.jpg");
+  background-repeat: no-repeat;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.catalog-filter-group {
+  border: 0px;
+}
+
+.hotel-card-link {
+  text-decoration: none;
+}
+
+.hotel-rating {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  background: #f2f2f2;
+  border-radius: 4px;
+  width: 140px;
+  height: 37px;
+}
+
+.pagination-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.pagination-item {
+  background: #82b3d3;
+  border: 1px solid #82b3d3;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.pagination-current {
+  background: #f2f2f2;
+  border-radius: 4px;
+}
+
+.pagination-link-current {
+  color: #000000;
+}
+
+.white-font {
+  color:#ffffff;
+}
+
+.black-font {
+  color:#000000;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
