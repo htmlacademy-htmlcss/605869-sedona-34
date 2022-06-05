@@ -14,26 +14,80 @@
   font-display: swap;
 }
 body {
+  margin: 0px;
   font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
 }
 
-.page-header {
-  background: #ffffff;
-}
-
-.text-bold {
+/* Заголовок 1 */
+.first-title {
   font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #ffffff;
 }
 
-.link {
-  text-decoration: none;
+/* Заголовок 2 */
+.second-heading {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
 }
 
-.navigation-link {
+.index-newsletter-title {
+  color: #ffffff;
+}
+
+/* Загоовок 3 */
+.third-heading {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+/* Заголовок 4 */
+.fourth-heading {
   font-size: 20px;
   line-height: 26px;
-  text-align: center;
   color: #000000;
+}
+
+.catalog-filter-title {
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+/* Текст */
+.description {
+  color: #333333;
+  text-align: center;
+}
+
+/* текст в блоках */
+.text-in-blocks {
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.main-background {
+  background-color:#ffffff;
+}
+
+.main-advantages {
+  background: #82b3d3;
+}
+
+.advantages-item-detailed {
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.beautiful-road {
+  background: rgba(131, 179, 211, 0.2);
 }
 
 .navigation-item-number-favorites {
@@ -47,10 +101,7 @@ body {
   padding-bottom: 19px;
 }
 
-.list {
-  list-style-type: none;
-}
-
+/* кнопки */
 .button {
   font-family: inherit;
   padding: 15px 45px;
@@ -95,116 +146,10 @@ body {
   background-repeat: no-repeat;
 }
 
-.advantages-title {
-  font-size: 30px;
-  line-height: 36px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.advantages-title {
-  color: #000000;
-}
-
-.advantages-description {
-  color: #333333;
-  font-size: 22px;
-  line-height: 26px;
-  text-align: center;
-}
-
-.advantages-item-title {
-  font-size: 24px;
-  line-height: 28px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #000000;
-}
-
-.advantages-item-rating {
-  font-size: 18px;
-  line-height: 21px;
-  text-align: center;
-  color: #000000;
-}
-
-.advantages-item-description {
-  font-size: 18px;
-  line-height: 21px;
-  text-align: center;
-  color: #333333;
-}
-
-.dark-blue-background {
-  background: #82b3d3;
-}
-
-.dark-blue-background .advantages-item-title {
-  color: #ffffff;
-}
-
-.dark-blue-background .advantages-item-rating {
-  color: #ffffff;
-}
-
-.dark-blue-background .advantages-item-description {
-  color: #ffffff;
-}
-
-.white-background {
-  background: #ffffff;
-}
-
-.advantages-item-detailed {
-  background: rgba(131, 179, 211, 0.12);
-}
-
-.blue-background {
-  background: rgba(131, 179, 211, 0.2);
-}
-
-.search {
-  background: #ffffff;
-}
-
-.search-title {
-  font-size: 30px;
-  line-height: 36px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.search-description {
-  font-size: 22px;
-  line-height: 26px;
-  text-align: center;
-  color: #333333;
-}
-
 .newsletter {
   background-color: #5180AB;
   background-image: url("../images/index-background-newsletter.jpg");
   background-repeat: no-repeat;
-}
-
-.newsletter-title {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
-  text-transform: uppercase;
-  text-align: center;
-  color: #ffffff;
-}
-
-.newsletter-description {
-  font-size: 22px;
-  line-height: 26px;
-  text-align: center;
-  color: #ffffff;
-}
-
-.page-footer {
-  background: #ffffff;
 }
 
 .footer-contacts-address-phone {
@@ -224,24 +169,9 @@ body {
   background-repeat: no-repeat;
 }
 
-.inner-header-title {
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 78px;
-  color: #ffffff;
-}
-
 .breadcrumbs-link {
   font-size: 16px;
   line-height: 21px;
-  color: #ffffff;
-}
-
-.catalog-filter-title {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 26px;
-  text-transform: capitalize;
   color: #ffffff;
 }
 
@@ -249,59 +179,8 @@ body {
   border: 0px;
 }
 
-.control {
-  font-size: 18px;
-  line-height: 21px;
-  color: #ffffff;
-}
-
-.catalog-filter-title {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 26px;
-  text-transform: capitalize;
-  color: #ffffff;
-}
-
-.catalog-hotels {
-  background: #ffffff;
-}
-
-.catalog-hotels-title {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
-  text-transform: uppercase;
-  color: #000000;
-}
-
-.select-control {
-  font-size: 18px;
-  line-height: 21px;
-  color: #333333;
-}
-
-.hotel-card-title {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  color: #000000;
-}
-
 .hotel-card-link {
   text-decoration: none;
-}
-
-.hotel-card-type {
-  font-size: 18px;
-  line-height: 21px;
-  color: #333333;
-}
-
-.hotel-card-price {
-  font-size: 18px;
-  line-height: 21px;
-  color: #333333;
 }
 
 .hotel-rating {
@@ -342,35 +221,26 @@ body {
   color: #000000;
 }
 
-.hotels-on-page-title {
-  font-size: 18px;
-  line-height: 21px;
-  color: #333333;
+.white-font {
+  color:#ffffff;
 }
 
-.select-control {
-  font-size: 18px;
-  line-height: 21px;
-  color: #333333;
+.black-font {
+  color:#000000;
 }
 
-.newsletter-catalog {
-  background: #ffffff;
+.text-align-center {
+  text-align: center;
 }
 
-.newsletter-catalog-title {
+.text-bold {
   font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
-  text-transform: uppercase;
-  color: #000000;
-  text-align: center;
 }
 
-.newsletter-catalog-description {
-  font-size: 22px;
-  line-height: 26px;
-  text-align: center;
-  color: #333333;
-  text-align: center;
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
 }
