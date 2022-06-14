@@ -277,3 +277,162 @@ body {
 .main-container {
   flex-grow: 1;
 }
+
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  width: 500px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-user {
+  max-width: 300px;
+  margin-left: auto;
+  padding-right: 70px;
+}
+
+.navigation-logo {
+  margin-right: auto;
+  padding-left: 70px;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-welcome,
+.hero-gorgeous,
+.hero-sedona,
+.hero-devider {
+  display: block;
+  margin: 0 auto;
+}
+
+.hero-welcome {
+  padding-top: 50px;
+}
+
+.hero-gorgeous {
+  padding-top: 10px;
+}
+
+.hero-sedona {
+  padding-top: 50px;
+}
+
+.hero-devider {
+  padding-top: 25px;
+}
+
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.advantage-details-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages-item {
+  width: 400px;
+}
+
+.advantage-details-list {
+  width: 1200px;
+}
+
+.housing,
+.food,
+.souvenirs {
+  padding-top: 80px;
+}
+
+.advantages-item-main-title {
+  padding-top: 100px;
+}
+
+.advantages-item-main-description {
+  padding-bottom: 100px;
+  margin: 0 auto;
+  width: 230px;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search .button {
+  margin: 55px 310px 90px 310px;
+}
+
+.search-description {
+  padding-top: 30px;
+  padding-right: 300px;
+  padding-left: 300px;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.newsletter-title {
+  padding-top: 95px;
+}
+
+.newsletter-description {
+  width: 475px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.newsletter-form {
+  padding-top: 45px;
+  padding-bottom: 95px;
+  margin: 0 auto;
+}
+
+.newsletter-form .field {
+  width: 600px;
+  height: 60px;
+}
+
+.newsletter-form .button {
+  width: 200px;
+  height: 60px;
+}
+
+.page-footer-container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.footer-social {
+  width: 140px;
+  height: 40px;
+  margin-left: 70px;
+  margin-right: 40px;
+  justify-content: space-between;
+}
+
+.footer-contacts {
+  width: 720px;
+  height: 50px;
+}
+
+.footer-logo {
+  padding-right: 70px;
+}
