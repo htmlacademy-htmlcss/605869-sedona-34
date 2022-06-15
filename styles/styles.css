@@ -26,8 +26,6 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
-  outline: 5px solid rgba(255, 99, 78, 0.5);
-  outline-offset: -5px;
 }
 
 /* Заголовок 1 */
@@ -47,6 +45,10 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   color: #000000;
+}
+
+.newsletter-title {
+  padding-top: 95px;
 }
 
 .index-newsletter-title {
@@ -85,6 +87,18 @@ body {
   text-align: center;
 }
 
+.newsletter-description {
+  width: 475px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.search-description {
+  padding-top: 30px;
+  padding-right: 300px;
+  padding-left: 300px;
+}
+
 /* текст в блоках */
 .control,
 .select-control,
@@ -101,11 +115,29 @@ body {
 .main-background,
 .page-header,
 .catalog-hotels,
-.newsletter,
+.newsletter-catalog,
 .page-footer,
 .advantages,
 .search {
-  background-color:#ffffff;
+  background-color: #ffffff;
+}
+
+.newsletter {
+  background-color: #5180AB;
+  background-image: url("../images/index-background-newsletter.jpg");
+  background-repeat: no-repeat;
+}
+
+.newsletter-catalog,
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.catalog-hotels {
+  display: flex;
+  flex-direction: column;
 }
 
 .main-advantages {
@@ -164,21 +196,15 @@ body {
   text-align: center;
   color: #ffffff;
   background-color: Transparent;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   border: none;
-  cursor:pointer;
+  cursor: pointer;
   overflow: hidden;
 }
 
 .hero {
   background-color: #417aa4;
   background-image: url("../images/index-background.jpg");
-  background-repeat: no-repeat;
-}
-
-.newsletter {
-  background-color: #5180AB;
-  background-image: url("../images/index-background-newsletter.jpg");
   background-repeat: no-repeat;
 }
 
@@ -251,11 +277,11 @@ body {
 }
 
 .white-font {
-  color:#ffffff;
+  color: #ffffff;
 }
 
 .black-font {
-  color:#000000;
+  color: #000000;
 }
 
 .text-align-center {
@@ -375,28 +401,6 @@ body {
   margin: 55px 310px 90px 310px;
 }
 
-.search-description {
-  padding-top: 30px;
-  padding-right: 300px;
-  padding-left: 300px;
-}
-
-.newsletter {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.newsletter-title {
-  padding-top: 95px;
-}
-
-.newsletter-description {
-  width: 475px;
-  margin: 0 auto;
-  padding-top: 30px;
-}
-
 .newsletter-form {
   padding-top: 45px;
   padding-bottom: 95px;
@@ -406,6 +410,7 @@ body {
 .newsletter-form .field {
   width: 600px;
   height: 60px;
+  background-color: #f2f2f2;
 }
 
 .newsletter-form .button {
