@@ -94,9 +94,7 @@ body {
 }
 
 .search-description {
-  padding-top: 30px;
-  padding-right: 300px;
-  padding-left: 300px;
+  padding: 30px 300px 0 300px;
 }
 
 /* текст в блоках */
