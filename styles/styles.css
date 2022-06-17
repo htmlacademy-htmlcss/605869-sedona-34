@@ -292,7 +292,7 @@ body {
   list-style-type: none;
 }
 
-.main-container {
+.page-main {
   flex-grow: 1;
 }
 
@@ -411,9 +411,6 @@ body {
 
 .page-footer-container {
   display: flex;
-  width: 1200px;
-  margin: 0 auto;
-  justify-content: space-between;
 }
 
 .footer-social {
@@ -431,4 +428,11 @@ body {
 
 .footer-logo {
   padding-right: 70px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin: 0 auto;
 }
