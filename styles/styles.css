@@ -372,12 +372,7 @@ body {
   padding-top: 80px;
 }
 
-.advantages-item-main-title {
-  padding-top: 100px;
-}
-
 .advantages-item-main-description {
-  padding-bottom: 100px;
   margin: 0 auto;
   width: 230px;
 }
@@ -410,6 +405,7 @@ body {
 
 .page-footer-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .footer-social {
@@ -426,4 +422,22 @@ body {
 .latter-advantages {
   display: flex;
   justify-content: space-around;
+}
+
+.advantages-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.hotel-list {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-start;
 }
