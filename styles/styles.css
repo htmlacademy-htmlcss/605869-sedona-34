@@ -110,13 +110,7 @@ body {
   color: #333333;
 }
 
-.main-background,
-.page-header,
-.catalog-hotels,
-.newsletter-catalog,
-.page-footer,
-.advantages,
-.search {
+.white-background {
   background-color: #ffffff;
 }
 
