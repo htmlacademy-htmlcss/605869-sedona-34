@@ -133,7 +133,10 @@ body {
 }
 
 .main-advantages {
+  display: flex;
   background: #82b3d3;
+  width: 1200px;
+  justify-content: space-between;
 }
 
 .advantages-item-detailed {
@@ -356,11 +359,7 @@ body {
 
 .advantage-details-list {
   display: flex;
-  justify-content: space-between;
-}
-
-.advantages-item {
-  width: 400px;
+  justify-content: space-around;
 }
 
 .advantage-details-list {
@@ -422,4 +421,9 @@ body {
   flex-direction: column;
   width: 1200px;
   margin: 0 auto;
+}
+
+.latter-advantages {
+  display: flex;
+  justify-content: space-around;
 }
