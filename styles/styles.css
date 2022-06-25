@@ -26,6 +26,9 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
+  width: 1280px;
+  background-color: #e5e5e5;
+  justify-content: center;
 }
 
 .visually-hidden {
@@ -47,100 +50,176 @@ body {
   color: #ffffff;
 }
 
-/* Заголовок 2 */
-.catalog-hotels-title,
-.newsletter-title,
-.advantages-title,
-.search-title {
+.catalog-hotels-title {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
   color: #000000;
 }
 
+.search-title {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+.search-description {
+  color: #333333;
+  text-align: center;
+  padding: 0 305px;
+  margin: 0;
+}
+
 .newsletter-title {
   padding-top: 95px;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
 }
 
 .index-newsletter-title {
   color: #ffffff;
 }
 
-/* Загоовок 3 */
-.hotel-card-title,
-.advantages-item-main-title,
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.navigation-logo {
+  margin: 0;
+  padding-right: 30px;
+  padding-left: 70px;
+}
+
+.navigation-list {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 390;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  align-items: center;
+}
+
+.navigation-item img {
+  margin: 0;
+  padding: 0;
+  align-self: center;
+}
+
+.navigation-user {
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 300px;
+  margin-left: auto;
+}
+
+/* Заголовок 4 */
+.navigation-link {
+  display: block;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  text-decoration: none;
+  padding: 20px 35px;
+  text-align: center;
+}
+
+.navigation-user .navigation-link {
+  padding: 20px 0;
+}
+
+.navigation-user .button {
+  padding: 8px 15px;
+  margin: 15px 30px;
+}
+
 .advantages-title {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
   color: #000000;
-}
-
-/* Заголовок 4 */
-.navigation-link,
-.catalog-filter-title {
-  font-size: 20px;
-  line-height: 26px;
-  color: #000000;
-}
-
-.catalog-filter-title {
-  font-weight: 700;
-  text-transform: capitalize;
-  color: #ffffff;
-}
-
-/* Текст */
-.newsletter-description,
-.advantages-description,
-.search-description {
-  color: #333333;
   text-align: center;
 }
 
-.newsletter-description {
-  width: 475px;
-  margin: 0 auto;
-  padding-top: 30px;
+.advantages-item-main-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+  padding-bottom: 30px;
 }
 
-.search-description {
-  padding: 30px 300px 0 300px;
+.advantage-details-list .advantages-item-main-title {
+  padding-top: 100px;
 }
 
-/* текст в блоках */
-.control,
-.select-control,
-.hotel-card-type,
-.hotel-card-price,
-.hotels-on-page-title,
-.advantages-item-main-rating,
+.advantages-item-main-rating {
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
 .advantages-item-main-description {
   font-size: 18px;
   line-height: 21px;
+  width: 230px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.advantage-details-list .advantages-item-main-description {
+  width: 230px;
+  text-align: center;
+  margin: 0 85px 80px 85px;
   color: #333333;
 }
 
-.white-background {
-  background-color: #ffffff;
-}
-
-.newsletter {
-  background-color: #5180AB;
-  background-image: url("../images/index-background-newsletter.jpg");
-  background-repeat: no-repeat;
-}
-
-.newsletter-catalog,
-.newsletter {
+.advantages-short-description {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center
 }
 
-.catalog-hotels {
-  display: flex;
-  flex-direction: column;
+.advantages-short-description .advantages-title {
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 60px 0 30px 0;
+}
+
+.advantages-short-description .advantages-description {
+  margin: 0;
+  padding-bottom: 90px;
+  text-align: center;
+}
+
+.advantage-details-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style-type: none;
+}
+
+.advantage-details-list .advantages-title {
+  padding-bottom: 30px;
+  text-align: center;
 }
 
 .main-advantages {
@@ -154,8 +233,82 @@ body {
   background: rgba(131, 179, 211, 0.12);
 }
 
+.advantages-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+}
+
 .beautiful-road {
   background: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-item
+
+.hotel-card-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.catalog-filter-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.newsletter-description,
+.advantages-description {
+  color: #333333;
+  text-align: center;
+}
+
+.newsletter-description {
+  width: 475px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.control,
+.select-control,
+.hotel-card-type,
+.hotel-card-price,
+.hotels-on-page-title {
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.white-background {
+  background-color: #ffffff;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #5180AB;
+  background-image: url("../images/index-background-newsletter.jpg");
+  background-repeat: no-repeat;
+}
+
+.newsletter-catalog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.catalog-hotels {
+  display: flex;
+  flex-direction: column;
 }
 
 .navigation-item-number-favorites {
@@ -233,11 +386,17 @@ body {
 .footer-social-list {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
+.footer-social-item {
+  width: 45px;
+  height: 40px;
+  margin-right: 13px
+}
 
 .footer-contacts-address-phone {
   text-decoration: none;
@@ -331,30 +490,6 @@ body {
   flex-grow: 1;
 }
 
-.navigation {
-  display: flex;
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.navigation-list {
-  width: 500px;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.navigation-user {
-  max-width: 300px;
-  margin-left: auto;
-  padding-right: 70px;
-}
-
-.navigation-logo {
-  margin-right: auto;
-  padding-left: 70px;
-}
-
 .page-container {
   width: 1200px;
   margin: 0 auto;
@@ -391,24 +526,11 @@ body {
   list-style-type: none;
 }
 
-.advantage-details-list {
-  display: flex;
-  justify-content: space-around;
-}
-
-.advantage-details-list {
-  width: 1200px;
-}
-
 .housing,
 .food,
 .souvenirs {
   padding-top: 80px;
-}
-
-.advantages-item-main-description {
-  margin: 0 auto;
-  width: 230px;
+  padding-bottom: 30px;
 }
 
 .search {
@@ -430,16 +552,25 @@ body {
 .newsletter-form .field {
   width: 600px;
   height: 60px;
+  padding-left: 20px;
+  margin: 0;
   background-color: #f2f2f2;
+  border: none;
+  border-radius: 10px 0  0 10px;
 }
 
 .newsletter-form .button {
   width: 200px;
+  height: 60px;
+  padding: 10px 15px;
+  margin: 0;
 }
 
 .page-footer-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin: 40px 70px;
 }
 
 .footer-social {
@@ -451,19 +582,6 @@ body {
   flex-direction: column;
   width: 1200px;
   margin: 0 auto;
-}
-
-.latter-advantages {
-  display: flex;
-  justify-content: space-around;
-}
-
-.advantages-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
 }
 
 .hotel-list {
