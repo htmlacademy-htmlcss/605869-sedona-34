@@ -51,6 +51,7 @@ body {
 
 /* Заголовок 1 */
 .inner-header-title {
+  margin: 0 auto;
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
@@ -380,6 +381,8 @@ body {
 
 .button-second {
   background-color: #82b3d3;
+  grid-area: button;
+  align-self: end;
 }
 
 .button-selected {
@@ -401,6 +404,8 @@ body {
   border: none;
   cursor: pointer;
   overflow: hidden;
+  grid-area: reset;
+  align-self: end;
 }
 
 .hero {
@@ -411,10 +416,18 @@ body {
 
 .breadcrumbs {
   list-style-type: none;
+  padding-left: 0;
+  display: flex;
+}
+
+.breadcrumbs-item {
+  padding-right: 10px;
 }
 
 .catalog-filter-list {
   list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .hotel-list {
@@ -457,16 +470,41 @@ body {
   background-color: #775654;
   background-image: url("../images/catalog-background.jpg");
   background-repeat: no-repeat;
+  padding: 35px 70px 70px 70px;
+}
+
+.catalog-filter {
+  display: grid;
+  grid-template-columns: 150px 250px 288px 160px;
+  grid-template-rows: 1fr 40px;
+  grid-template-areas:
+    "infra type price button"
+    "infra type price reset";
+  gap: 0 70px;
+}
+
+.catalog-filter-infra {
+  grid-area: infra;
+}
+
+.catalog-filter-type {
+  grid-area: type;
+}
+
+.catalog-filter-price {
+  grid-area: price;
+}
+
+.catalog-filter-group {
+  border: 0;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .breadcrumbs-link {
   font-size: 16px;
   line-height: 21px;
   color: #ffffff;
-}
-
-.catalog-filter-group {
-  border: 0;
 }
 
 .hotel-card-link {
