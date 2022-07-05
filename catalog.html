@@ -140,26 +140,31 @@
           </div>
 
           <section class="catalog-hotels white-background">
-            <h2 class="catalog-hotels-title">Найдено гостиниц: 38</h2>
+            <div class="hotel-sorting-wrapper">
+              <h2 class="catalog-hotels-title">Найдено гостиниц: 38</h2>
 
-            <select class="select-control" aria-label="Сортировка">
-              <option value="popular">Сначала дешёвые</option>
-              <option value="cheap">Сначала популярные</option>
-              <option value="expensive">Сначала дорогие</option>
-            </select>
+              <select class="select-control" aria-label="Сортировка">
+                <option value="popular">Сначала дешёвые</option>
+                <option value="cheap">Сначала популярные</option>
+                <option value="expensive">Сначала дорогие</option>
+              </select>
 
-            <a class="button-table button-light" href="#">
-              <span class="visually-hidden">Показать таблицу</span>
-              <img src="images/icon-table.svg" width="16" height="14" alt="">
-            </a>
-            <a class="button-slideshow" href="#">
-              <span class="visually-hidden">Показать слайдер</span>
-              <img src="images/icon-slideshow.svg" width="16" height="14" alt="">
-            </a>
-            <a class="button-list" href="#">
-              <span class="visually-hidden">Показать список</span>
-              <img src="images/icon-list.svg" width="16" height="14" alt="">
-            </a>
+              <div class="view-hotel-sorting-wrapper">
+                <a class="button-table current-view-button" href="#">
+                  <span class="visually-hidden">Показать таблицу</span>
+                  <img src="images/icon-table.svg" width="16" height="14" alt="">
+                </a>
+                <a class="button-slideshow view-button" href="#">
+                  <span class="visually-hidden">Показать слайдер</span>
+                  <img src="images/icon-slideshow.svg" width="16" height="14" alt="">
+                </a>
+                <a class="button-list view-button" href="#">
+                  <span class="visually-hidden">Показать список</span>
+                  <img src="images/icon-list.svg" width="16" height="14" alt="">
+                </a>
+              </div>
+            </div>
+
 
             <ul class="hotel-list">
               <li class="hotel-card">

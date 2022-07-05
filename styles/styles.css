@@ -63,13 +63,14 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   color: #000000;
+  margin: 0;
+  align-self: center;
 }
 
 .search {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* margin-top: 90px; */
   padding-top: 90px;
   padding-bottom: 90px;
 }
@@ -330,7 +331,6 @@ body {
 }
 
 .control,
-.select-control,
 .hotel-card-type,
 .hotel-card-price,
 .hotels-on-page-title {
@@ -338,6 +338,16 @@ body {
   line-height: 21px;
   color: #333333;
 }
+
+.select-control {
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  border: 2px solid #e5e5e5;
+  border-radius: 4px;
+  width: 290px;
+}
+
 
 .white-background {
   background-color: #ffffff;
@@ -627,4 +637,36 @@ body {
 .pagination {
   display: flex;
   justify-content: flex-start;
+}
+
+.hotel-sorting-wrapper {
+  display: flex;
+  width: 1057px;
+  margin: 50px auto 55px auto;
+  justify-content: space-between;
+}
+
+.view-hotel-sorting-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.current-view-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  width: 48px;
+  height: 48px;
+}
+
+.view-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #e5e5e5;
+  border-radius: 4px;
+  width: 48px;
+  height: 48px;
 }
