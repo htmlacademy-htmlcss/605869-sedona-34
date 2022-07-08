@@ -400,18 +400,14 @@ body {
   cursor: pointer;
 }
 
-.button-second {
-  background-color: #82b3d3;
-  grid-area: button;
-  align-self: end;
-}
-
 .button-selected {
   background-color: #7db54f;
 }
 
 .newsletter-button {
+  background-color: #82b3d3;
   border-radius: 0 10px 10px 0;
+  font-weight: 700;
 }
 
 .catalog-filter-button-reset {
@@ -537,6 +533,14 @@ body {
   grid-area: price;
 }
 
+.button-catalog-filter {
+  background-color: #82b3d3;
+  grid-area: button;
+  font-weight: 700;
+  padding: 0;
+  height: 48px;
+}
+
 .catalog-filter-group {
   border: 0;
   margin: 0 auto;
@@ -549,33 +553,33 @@ body {
   color: #ffffff;
 }
 
+.pagination-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .pagination-link {
   text-decoration: none;
   color: #ffffff;
-}
-
-.pagination-item {
   background: #82b3d3;
   border: 1px solid #82b3d3;
   border-radius: 4px;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
   width: 60px;
   height: 60px;
+  text-align: center;
   display: flex;
+  flex-direction: row;
   justify-content: center;
-}
-
-.pagination-current {
-  background: #f2f2f2;
-  border-radius: 4px;
+  align-items: center;
 }
 
 .pagination-link-current {
+  background: #f2f2f2;
+  border-radius: 4px;
   color: #000000;
 }
 
@@ -638,7 +642,14 @@ body {
   padding-bottom: 30px;
 }
 
-.page-footer-container {
+/* .page-footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 70px;
+} */
+
+.page-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -743,11 +754,15 @@ body {
   display: block;
   grid-area: detail;
   padding: 8px 0;
+  font-weight: 700;
+  text-align: center;
 }
 
 .hotel-card-favourites {
+  background-color: #82b3d3;
   grid-area: favourites;
   padding: 8px 0;
+  font-weight: 700;
 }
 
 .star-hotel {
@@ -773,5 +788,5 @@ body {
   margin: 66px auto 30px auto;
   padding: 0;
   width: 1055px;
-  border: 1px solid #e6e6e6;
+  border-top: 1px solid #e6e6e6;
 }
