@@ -38,6 +38,10 @@ body {
   margin: 0 auto;
 }
 
+.page-header {
+  background-color: #ffffff;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -139,6 +143,7 @@ body {
   text-decoration: none;
   padding: 20px 35px;
   text-align: center;
+  font-weight: 700;
 }
 
 .navigation-user .navigation-link {
@@ -450,7 +455,7 @@ body {
 .hotel-list {
   list-style-type: none;
   width: 1056px;
-  margin: 0 auto;
+  margin: 0 auto 66px auto;
   padding: 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -463,6 +468,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-top: 1px solid #e6e6e6;
+  padding-top: 30px;
 }
 
 .pagination {
@@ -642,22 +649,23 @@ body {
   padding-bottom: 30px;
 }
 
-/* .page-footer-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 40px 70px;
-} */
-
 .page-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 40px 70px;
+  margin: 0;
+  background-color: #ffffff;
+  width: 1200px;
+  min-height: 120px;
 }
 
 .footer-social {
   justify-content: space-between;
+  margin-left: 81px;
+}
+
+.footer-logo {
+  margin-right: 70px;
 }
 
 .pagination {
@@ -782,11 +790,4 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.separator-over-pagination {
-  margin: 66px auto 30px auto;
-  padding: 0;
-  width: 1055px;
-  border-top: 1px solid #e6e6e6;
 }
