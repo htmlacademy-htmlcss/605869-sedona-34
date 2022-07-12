@@ -103,7 +103,7 @@ body {
 .navigation {
   display: flex;
   margin: 0 auto;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .navigation-logo {
@@ -124,13 +124,12 @@ body {
 
 .navigation-user {
   display: flex;
-  flex-wrap: nowrap;
-  max-width: 300px;
-  margin-left: auto;
+  justify-content: end;
 }
 
 .navigation-item {
   display: flex;
+  justify-content: end;
 }
 
 .navigation-link {
@@ -140,7 +139,7 @@ body {
   line-height: 26px;
   color: #000000;
   text-decoration: none;
-  padding: 20px 35px;
+  margin-right: 34px;
   text-align: center;
   font-weight: 700;
 }
@@ -158,12 +157,10 @@ body {
 .navigation-user .navigation-link {
   min-width: 16px;
   min-height: 22px;
-  padding: 23px;
 }
 
 .navigation-user .button {
   padding: 8px 15px;
-  /*margin: 15px 30px;*/
 }
 
 .advantages-title {
@@ -391,12 +388,6 @@ body {
   flex-direction: column;
 }
 
-.navigation-item-number-favorites {
-  font-size: 10px;
-  line-height: 13px;
-  color: #ffffff;
-}
-
 .button {
   font-family: inherit;
   padding: 15px 45px;
@@ -433,7 +424,7 @@ body {
 }
 
 .newsletter-button:hover,
-.bnewsletter-button:focus {
+.newsletter-button:focus {
   background-color: #68a2ca;
   cursor: pointer;
 }
@@ -528,14 +519,23 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.pagination-link-current,
-.pagination-link-current:hover,
-.pagination-linkcurrent:focus,
-.pagination-linkcurrent:active {
-  background: #f2f2f2;
-  border-radius: 4px;
+.pagination-link-current {
+  text-decoration: none;
   color: #000000;
+  background: #f2f2f2;
   border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 .catalog-filter-button-reset {
@@ -627,7 +627,6 @@ body {
 .footer-contacts-address-phone:hover,
 .footer-contacts-address-phone:focus {
   color: #756157;
-  cursor: pointer;
 }
 
 .footer-contacts-address-phone:active {
@@ -945,7 +944,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 10px;
 }
 
 .breadcrumbs-link-home {
@@ -957,17 +955,6 @@ body {
   background-image: url('../images/breadcrumbs-main.svg');
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.breadcrumbs-arrow {
-  width: 6px;
-  height: 8px;
-  margin: 0;
-  padding: 0;
-  background-image: url('../images/breadcrumbs-arrow.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 10px;
 }
 
 .star {
@@ -988,4 +975,90 @@ body {
   text-decoration-color: #756257;
   text-decoration-thickness: 2px;
   text-underline-offset: 19px;
+}
+
+.breadcrumbs-item-home {
+  position: relative;
+}
+
+.breadcrumbs-item-home::after {
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 8px;
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/breadcrumbs-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  left:  22px;
+}
+
+.breadcrumbs-item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.navigation-link-search {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/search.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 24px;
+}
+
+.navigation-link-favorite {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/favorite.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 24px;
+}
+
+.navigation-link-favorite {
+  position: relative;
+}
+
+.quantity-favorites {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  top: -8px;
+  left: 14px;
+  background: #7db54f;
+  border-radius: 10px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  letter-spacing: -0.1em;
+}
+
+.navigation-link-button {
+  padding: 15px 45px;
+  border: none;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  background-color: #756157;
+  color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  margin-right: 70px;
+  text-align: center;
+  font-weight: 700;
 }
