@@ -283,6 +283,7 @@ body {
   background-color: #5180ab;
   background-image: url("../images/index-background-newsletter.jpg");
   background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .newsletter-title {
@@ -638,6 +639,7 @@ body {
   background-image: url("../images/catalog-background.jpg");
   background-repeat: no-repeat;
   padding: 35px 70px 70px 70px;
+  background-size: 100% 100%;
 }
 
 .catalog-filter {
@@ -1061,4 +1063,8 @@ body {
   margin-right: 70px;
   text-align: center;
   font-weight: 700;
+}
+
+.advantages-item-img {
+  object-fit: cover;
 }
