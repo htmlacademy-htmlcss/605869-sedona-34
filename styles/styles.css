@@ -815,6 +815,23 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas:
+    "image image"
+    "title title"
+    "type price"
+    "detail favourites"
+    "stars rating";
+  grid-gap: 16px 20px;
+  width: 300px;
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+}
+
+.hotel-card-image {
+  object-fit: contain;
 }
 
 .hotel-card-wrapper {
