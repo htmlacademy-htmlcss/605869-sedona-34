@@ -435,6 +435,11 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.newsletter-button:disabled {
+  background-color: #e5e5e5;
+  color: #ffffff;
+}
+
 .button-catalog-filter {
   background-color: #82b3d3;
   grid-area: button;
@@ -631,6 +636,10 @@ body {
 }
 
 .footer-contacts-address-phone:active {
+  color: #756157;
+}
+
+.footer-contacts-address-phone:disabled {
   color: rgba(117, 97, 87, 0.3);
 }
 
@@ -1067,4 +1076,17 @@ body {
 
 .advantages-item-img {
   object-fit: cover;
+}
+
+.navigation-list .navigation-link:hover,
+.navigation-list .navigation-link:focus {
+  color: #756157;
+}
+
+.navigation-list .navigation-link:active {
+  color: #756157;
+}
+
+.navigation-list .navigation-link:disabled {
+  color: rgba(117, 97, 87, 0.3);
 }
