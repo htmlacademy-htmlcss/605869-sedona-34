@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png" />
   </head>
 
   <body>
@@ -226,6 +227,87 @@
           </a>
         </section>
       </footer>
+
+      <!-- Модальное окно-->
+      <div class="modal-container modal-container-close">
+        <div class="modal modal-search-form">
+          <button class="modal-close-button" aria-label="Закрыть">
+            <span class="visually-hidden">Закрыть</span>
+          </button>
+          <section>
+            <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+            <form action="https://echo.htmlacademy.ru/" method="post">
+              <!--right или wrong, для включения примечания для find-hotel-form-date-->
+              <div class="find-hotel-form-date wrong">
+                <label class="label-input" for="arrival-date">
+                  <span class="arrival-date-h4">Дата Заезда:</span>
+                </label>
+                <div class="field-group">
+                  <input class="field-modal" type="text" id="arrival-date" name="arrival-date"
+                    placeholder="27 апреля 2020" required>
+                  <button class="calendar-button" type="button"
+                    aria-label="Посмотреть доступные даты"></button>
+                  <span class="massage-error">Мы не можем отправить вас в прошлое</span>
+                  <span class="massage-vin">На эти даты есть свободные номера. Пока есть.</span>
+                </div>
+              </div>
+              <!--right или wrong, для включения примечания для find-hotel-form-date-->
+              <div class="find-hotel-form-date right">
+                <label class="label-input" for="departure-date">
+                  <span class="arrival-date-h4">Дата Выезда:</span>
+                </label>
+                <div class="field-group">
+                  <input class="field-modal" type="text" id="departure-date" name="departure-date"
+                    placeholder="1 сентября 2021" required>
+                  <button class="calendar-button" type="button"
+                    aria-label="Посмотреть доступные даты"></button>
+                  <span class="massage-error">Мы не можем отправить вас в прошлое</span>
+                  <span class="massage-vin">На эти даты есть свободные номера. Пока есть.</span>
+                </div>
+              </div>
+              <!--Взрослые-->
+              <div class="find-hotel-form-people">
+                <div class="people">
+                  <label class="label-input" for="adult">Взрослые:</label>
+                  <div class="button-adults">
+                    <input class="people-field field-modal" type="number" id="adult" name="adult" placeholder="2"
+                      required />
+                    <button class="button-count button-plus" type="button" aria-label="Добавить"></button>
+                    <button class="button-count button-minus" type="button" aria-label="Удалить"></button>
+                  </div>
+                </div>
+                <!--Дети-->
+                <div class="people">
+                  <span class="label-input">
+                    <label class="label-input" for="children">Дети:</label>
+                    <span class="tooltip">
+                      <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label">
+                        <svg width="1" height="9" viewBox="0 0 1 9" fill="none"
+                          xmlns="http://www.w3.org/2000/svg" focusable="false">
+                          <g clip-path="url(#clip0_33716_652)">
+                            <path d="M0 9H1L1 3H0L0 9Z" fill="white" />
+                            <path d="M1 0H0V1H1V0Z" fill="white" />
+                          </g>
+                        </svg>
+                      </button>
+                      <span class="tooltip-text" role="tooltip" id="tooltip-label">
+                        Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.
+                      </span>
+                    </span>
+                  </span>
+                  <div class="button-adults">
+                    <input class="people-field field-modal" type="number" id="children" name="children"
+                      placeholder="1" />
+                    <button class="button-count button-plus" type="button" aria-label="Добавить"></button>
+                    <button class="button-count button-minus" type="button" aria-label="Удалить"></button>
+                  </div>
+                </div>
+              </div>
+              <button class="button-find" type="submit">Найти</button>
+            </form>
+          </section>
+        </div>
+      </div>
     </div>
   </body>
 
