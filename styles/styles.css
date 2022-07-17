@@ -814,7 +814,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, auto);
   grid-template-areas:
@@ -1166,9 +1165,9 @@ body {
 }
 
 .modal-title {
-  margin: 0px;
+  margin: 0;
   margin-bottom: 63px;
-  padding: 0px;
+  padding: 0;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -1183,7 +1182,7 @@ body {
   position: relative;
   margin: 0;
   margin-bottom: 40px;
-  padding: 0px;
+  padding: 0;
 }
 
 .find-hotel-form-date.right .massage-vin {
@@ -1363,7 +1362,7 @@ body {
   border-radius: 10px;
   transform: translateX(50%);
   z-index: 1;
-  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
   background-color: #333333;
   color: #ffffff;
   font-weight: 400;
